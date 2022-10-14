@@ -16,7 +16,7 @@ services:
       - db
     command: mix phx.server
     env_file:
-      - .env
+      - .env.development
     ports:
       - '4000:4000'
     volumes:
